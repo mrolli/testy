@@ -7,7 +7,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: [self-hosted, Linux]
+    runs-on: [self-hosted, Ubuntu-18.04]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v2
